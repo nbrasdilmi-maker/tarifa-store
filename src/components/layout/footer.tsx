@@ -195,9 +195,7 @@ export function Footer() {
               © {currentYear} تَرِفَة. جميع الحقوق محفوظة.
             </p>
             <p className="text-white/40 text-sm flex items-center gap-1">
-              صُنع بـ
-              <Heart className="h-4 w-4 text-rose-500 fill-rose-500 animate-pulse" />
-              في اليمن
+              تطوير : محمد ابراهيم الديلمي |776668662
             </p>
           </div>
         </div>

@@ -532,7 +532,7 @@ function HomeContent() {
                     <Link href={heroSlides[currentSlide].link || "/products"}>
                       <Button
                         size="lg"
-                        className="bg-gradient-to-r from-[#C9A962] to-[#B8956E] hover:from-[#B8956E] hover:to-[#9A7B4F] text-white px-10 py-7 text-lg rounded-full shadow-2xl hover:shadow-[#C9A962]/30 transition-all duration-300 group"
+                        className="bg-gradient-to-r from-[#C9A962] to-[#B8956E] text-white px-10 py-7 text-lg rounded-full transition-all duration-300 group hover-neon-effect"
                       >
                         {heroSlides[currentSlide].cta}
                         <ArrowLeft className="mr-2 h-5 w-5 group-hover:-translate-x-1 transition-transform" />
@@ -803,7 +803,7 @@ function HomeContent() {
                           <div className="flex gap-2">
                             <Button
                               size="sm"
-                              className="flex-1 bg-gradient-to-r from-[#C9A962] to-[#B8956E] hover:from-[#B8956E] hover:to-[#9A7B4F] text-white rounded-full"
+                              className="flex-1 bg-gradient-to-r from-[#C9A962] to-[#B8956E] text-white rounded-full hover-neon-effect"
                               onClick={(e) => {
                                 e.stopPropagation();
                                 openWhatsApp(
